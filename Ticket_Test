@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+#encoding=utf-8
+import os
+import sys
+import json
+import time
+import random
+import urllib
+import urllib2 
+import datetime
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+class Ticket_Test(object):
+"""
+for test
+"""
+	def __init__(self):
+		pass
+    
+    def run(self):
+    """
+    run
+    """
+    	print "hello world"
+
+
+if __name__ == "__main__":
+	obj = Ticket_Test()
+	obj.run
+
